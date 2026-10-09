@@ -1,9 +1,7 @@
 # COVID-19 Data Analysis Portfolio Project
 
-## Project Overview
-
+## Project Purpose
 This project analyzes global COVID-19 data using MySQL and Excel. The goal is to explore COVID-19 cases, deaths, infection rates, death percentages, and vaccination progress across countries and continents.
-
 The project is designed as a portfolio project to demonstrate data cleaning, SQL querying, data analysis, and dashboard preparation skills.
 
 ## Tools Used
@@ -146,7 +144,3 @@ This project can be extended into a dashboard with:
 - Death count by continent
 - Global cases and deaths trend
 - Vaccination progress over time
-
-## Project Purpose
-
-This project was created as part of a data analytics portfolio to demonstrate practical SQL and data analysis skills using real-world COVID-19 data.
