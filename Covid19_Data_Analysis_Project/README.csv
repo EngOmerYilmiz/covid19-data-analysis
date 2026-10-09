@@ -1,0 +1,152 @@
+# COVID-19 Data Analysis Portfolio Project
+
+## Project Overview
+
+This project analyzes global COVID-19 data using MySQL and Excel. The goal is to explore COVID-19 cases, deaths, infection rates, death percentages, and vaccination progress across countries and continents.
+
+The project is designed as a portfolio project to demonstrate data cleaning, SQL querying, data analysis, and dashboard preparation skills.
+
+## Tools Used
+
+- SSMS
+- Excel
+- SQL
+- CSV data preparation
+- GitHub
+
+## Dataset
+
+The project uses two COVID-19 datasets:
+
+- `CovidDeaths.csv`
+- `covidvaccinations.csv
+
+These files contain country-level COVID-19 information such as:
+
+- Location
+- Continent
+- Date
+- Population
+- Total cases
+- New cases
+- Total deaths
+- New deaths
+- Vaccination data
+
+## Project Workflow
+
+1. Converted Excel files into CSV format.
+2. Created a SQL Server database.
+3. Created tables for COVID deaths and vaccinations.
+4. Imported CSV files into SSMS.
+5. Wrote SQL queries to analyze the data.
+6. Prepared insights for dashboarding and portfolio presentation.
+
+## Key Analysis Questions
+
+This project answers questions such as:
+
+- Which countries had the highest number of COVID-19 cases?
+- Which countries had the highest death counts?
+- What percentage of each country’s population was infected?
+- What was the death percentage by country?
+- Which continents had the highest death counts?
+- How did global cases and deaths change over time?
+- How did vaccination progress by country?
+
+## SQL Analysis Included
+
+The SQL scripts include:
+
+- Total cases vs total deaths
+- Death percentage calculation
+- Infection percentage by population
+- Countries with highest infection rates
+- Countries with highest death counts
+- Continent-level death analysis
+- Global daily cases and deaths
+- Joining deaths and vaccination tables
+- Rolling vaccination totals
+- Vaccination percentage calculations
+
+## Repository Structure
+
+```text
+covid19-data-analysis/
+│
+├── README.md
+│
+├── data/
+│   ├── covid_deaths.csv
+│   └── covid_vaccinations.csv
+│
+└── sql/
+    ├── 01_create_database_and_tables.sql
+    └── 02_analysis_queries.sql
+```
+
+## How to Use This Project
+
+### 1. Create the database and tables
+
+Open SSMS and run:
+
+```sql
+sql/01_create_database_and_tables.sql
+```
+
+### 2. Import the CSV files
+
+Run:
+
+```sql
+sql/02_load_csv_files.sql
+```
+
+
+### 3. Run the analysis queries
+
+Run:
+
+```sql
+sql/03_analysis_queries.sql
+```
+
+## Example Insights
+
+Some insights this project can produce include:
+
+- Countries with the highest reported COVID-19 deaths
+- Countries with the highest infection percentage relative to population
+- Continents most affected by total death count
+- Global trends in cases and deaths over time
+- Vaccination progress by country
+
+## Skills Demonstrated
+
+- Data cleaning
+- SQL table creation
+- CSV import into SSMS
+- Joins
+- Window functions
+- Common Table Expressions
+- Aggregations
+- Data analysis
+- Portfolio documentation
+
+## Suggested Dashboard Ideas
+
+This project can be extended into a dashboard with:
+
+- Total global cases
+- Total global deaths
+- Death percentage
+- Top 10 countries by deaths
+- Infection percentage by country
+- Death count by continent
+- Global cases and deaths trend
+- Vaccination progress over time
+
+## Project Purpose
+
+This project was created as part of a data analytics portfolio to demonstrate practical SQL and data analysis skills using real-world COVID-19 data.
