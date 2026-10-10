@@ -112,3 +112,25 @@ SELECT
 FROM vaccination_progress
 Where new_vaccinations is not null
 order by date;
+
+--Creating views for dashboards
+Create View PercentPopulationVaccinated as 
+SELECT
+d.continent,
+d.location,
+d.date,
+d.population,
+v.new_vaccinations,
+SUM(cast(v.new_vaccinations as int)) OVER (
+    PARTITION BY d.location
+    ORDER BY d.location, d.date
+) AS rolling_people_vaccinated
+FROM covid_deaths d
+JOIN covid_vaccinations v
+ON d.location = v.location
+AND d.date = v.date
+WHERE d.continent IS NOT NULL
+
+
+Select *
+From PercentPopulationVaccinated
