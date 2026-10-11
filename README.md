@@ -13,3 +13,9 @@ Downloaded on 6/10/2026
 Data Import and Cleaning: Imported the Covid Deaths and Vaccinations tables with the correct data type for each column.
 Data Processing: Processed data using aggregate functions, joins, and CTEs, and created views in SQL.
 Data Visualization: Created interactive dashboards in Tableau to visualize the analysis results.
+
+
+**Dashboard**
+The Tableau dashboard should look something like this. created by : https://github.com/ChristineCYin/Covid-19-Data-Exploration
+
+<img width="1582" height="809" alt="tableau" src="https://github.com/user-attachments/assets/9a244d2d-ff0e-4184-ad9b-0c7dd7ea0a16" />
