@@ -17,6 +17,6 @@ Data Visualization: Created interactive dashboards in Tableau to visualize the a
 
 **Dashboard**
 
-The Tableau dashboard should look something like this. created by : https://github.com/ChristineCYin/Covid-19-Data-Exploration
+The Tableau dashboard should look something like this.
 
-<img width="1582" height="809" alt="tableau" src="https://github.com/user-attachments/assets/9a244d2d-ff0e-4184-ad9b-0c7dd7ea0a16" />
+<img width="1195" height="592" alt="Covid Dashboard" src="https://github.com/user-attachments/assets/5539c63e-2b7e-4ce6-b39d-d8c5a39f224f" />
